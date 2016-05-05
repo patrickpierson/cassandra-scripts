@@ -1,5 +1,5 @@
 #!/bin/bash
-## Script to restore cassandra volume to s3 for daily snapshots - patrick.pierson@ionchannel.io
+## Script to restore cassandra volume from s3 - patrick.pierson@ionchannel.io
 ## Get todays date and format in MM-DD-YYYY
 date_time=$(date +%m-%d-%Y)
 ## Determine cluster from minion file and second arg from id, save to cluster
